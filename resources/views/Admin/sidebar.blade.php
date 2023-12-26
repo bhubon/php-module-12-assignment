@@ -28,7 +28,7 @@
         </li>
         <li class="nav-item">
             <a class="nav-link" href="{{ route('allBookings') }}">
-                <span class="menu-title">Purchase Ticked List</span>
+                <span class="menu-title">Purchase Ticket List</span>
                 <i class="mdi mdi-chart-bar menu-icon"></i>
             </a>
         </li>
