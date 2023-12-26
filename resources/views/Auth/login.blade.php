@@ -37,10 +37,21 @@
                                         type="submit">SIGN IN</button>
                                 </div>
                                 <div class="text-center mt-4 font-weight-light"> Don't have an account?
-                                    <a href="{{route('registerView')}}" class="text-primary">Create</a>
+                                    <a href="{{ route('registerView') }}" class="text-primary">Create</a>
                                 </div>
                             </form>
-                            
+                            <div class="login-details mt-4">
+                                <hr>
+                                <h6>Login Details<small> (After DB SEED)</small></h6>
+                                <p class="mb-0">Admin:</p>
+                                <p class="mb-2">
+                                    <span>Email: admin@gmail.com</span> &nbsp; <span>Pass: password</span>
+                                </p>
+                                <p class="mb-0">User:</p>
+                                <p>
+                                    <span>Email: user@gmail.com</span> &nbsp; <span>Pass: password</span>
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
